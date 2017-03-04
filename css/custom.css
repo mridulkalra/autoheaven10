@@ -1,0 +1,195 @@
+
+img{
+  border-radius: 70px;
+  border: grey solid;
+  padding:10px;
+}
+.team-members{
+  border-radius: 50%;
+  width: 200px;
+  height:200px;
+  border:5px solid rgb(168,103,35);
+}
+.map{
+  position: relative;
+  height:700px;
+  z-index: 3;
+}
+.contactus{
+  position: absolute;
+  background-color:rgb(223,223,223);
+  height: 400px;
+  width: 250px;
+  z-index: 4;
+  margin-top: 125px;
+  padding: 10px;
+ position:fixed;
+}
+#last{
+  background-color:black;
+  text-align: center;
+  margin-top:-100px;
+  margin-left: -10px;
+  margin-right:-10px;
+  height:40px;
+  width:1339px;
+  padding-bottom:-100px;
+}
+section[id="header"]{
+background:url("../img/CSC_1174.jpg");
+  text-align: center;
+  margin:20px auto;
+  margin-top: -30px;
+  background-size: cover;
+ 
+}
+#header h3{
+   font-size:849%;
+   font-family: 'Lato', sans-serif;
+   margin-top:10px;
+
+}
+
+#header p{
+  font-size: 24px;
+  margin: 2px auto 250px;
+}
+#header i{
+  font-size: 40px;
+}
+.hr-line{
+  font-size: 50px;
+}
+.d-line{
+  display: inline-block;
+  border:2px solid black;
+  width:22%;
+  height:2px;
+  margin-bottom: 14px;
+  color:rgb(34,29,29);
+}
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+     top: 0;
+    width: 100%; 
+}
+
+li {
+    float: left;
+    position: fixed;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+.main {
+    margin-top: 30px;
+}
+#about{
+  text-align: center;
+  margin:0px 3%
+}
+#about h3{
+  margin-top:10px;
+  font-size:44px;
+ font-family: 'Lato', sans-serif;
+}
+#about p{
+  font-size:150%;
+  font-family: 'Lato', sans-serif;
+  margin-top:1%;
+  text-align:center;;
+}
+#what-we-do{
+  text-align: center;
+}
+#what-we-do h3{
+  margin-top:10px;
+  font-size:44px;
+ font-family: 'Lato', sans-serif;
+}
+#works{
+  text-align: center;
+}
+#works h3{
+  margin-top:10px;
+  font-size:44px;
+ font-family: 'Lato', sans-serif;
+}
+#thinks{
+  text-align: center;
+}
+#thinks h3{
+  margin-top:10px;
+  font-size:44px;
+ font-family: 'Lato', sans-serif;
+}
+#team{
+  text-align: center;
+}
+#team h3{
+  margin-top:10px;
+  font-size:44px;
+ font-family: 'Lato', sans-serif;
+}
+#lie{
+  text-align: center;
+}
+#lie h3{
+  margin-top:10px;
+  font-size:44px;
+ font-family: 'Lato', sans-serif;
+}
+#lie p{
+font-size:20px;
+}
+#bar{
+  margin-left:-18px;
+  margin-right: -18px;
+}
+#cf {
+position:relative;
+height:250px;
+width:350px;
+margin:0 auto;
+}
+
+#cf img {
+position:absolute;
+left:0;
+-webkit-transition: opacity 1s ease-in-out;
+-moz-transition: opacity 1s ease-in-out;
+-o-transition: opacity 1s ease-in-out;
+transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+opacity:0;
+}
+.nav-pills li{
+  float:none;
+  display: inline-block;
+  zoom:1;
+  background-color:grey;
+  border-radius:5px;
+}
+.nav-pills{
+  text-align: center;
+}
+a[href="www.twitter.com"]{
+padding:10px;
+}
+a[href="www.linkedin.com"]{
+padding:10px;
+}
+a[href="www.facebook.com"]{
+padding:10px;
+}
